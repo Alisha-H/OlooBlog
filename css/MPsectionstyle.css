@@ -1,0 +1,52 @@
+
+div#big.MarcoPolo > div#extra {
+	height: 442px;
+	padding: 110px 50px 110px 50px;
+}
+
+div#extra-wrap.MarcoPolo {
+	position: absolute;
+	left: 7.9%;
+	top: 570px;
+	width: 20%;
+	z-index: 1;
+}
+
+#extra-wrap h3 {
+	width: 79%;
+	color: #9E1E4C;
+	padding: 2px 0px 0px 4px;
+	background-color: #ECECEC;
+}
+
+#triangle-topright:not(.header) {
+	position: absolute;
+	left: 0;
+	top: 46.5px;
+}
+
+div#small.MarcoPolo {
+	background-color: rgba(143, 143, 143, 0.6);
+	overflow: auto;
+	padding: 30px 0px;
+	z-index: 1;
+}
+
+div#small.MarcoPolo > div >  img {
+	width: 100%;
+	border: 10px white solid;
+	border-bottom: 10px white solid;
+}
+
+div#small.MarcoPolo > div {
+	background-color: white;
+	display: inline-block;
+	width: 30%;
+	margin: 4px 20px 5px 20px;
+	position: relative;
+	left: 20%;
+	box-shadow: 0px 6px 10px;
+	text-align: center;
+	vertical-align: text-top;
+}
+
